@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Avrakhova Laura">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ITstep Dnipro, gr. web_2019, dz-js">
+    <title>Avrakhova dz_arrays</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h3>
+            1. Крестики-нолики Начало. Создайте веб-приложение, в котором есть двумерный массив 3 на 3 поля, заполненный буквами "Х" и "О". Выведите его в консоль
+        </h3>
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <button id="btnStart">Заполнить</button>
+    </section>
+
+    <section>
+        <h3>
+            2. Создайте веб-приложение, в котором есть двумерный массив карт 13 на 4(4 масти карт от 2 до туза). Выведите в консоль случайную карту из массива используя Math.random()<br>
+            Выходные данные:<br>
+            Строка - Случайная карта
+        </h3>
+        <button  id="btnCards">Фокус</button>
+        <div class="result resultCards"></div>
+    </section>
+
+    <section id="myId">
+        <h3>
+            3. Соревнования по бегу. Создайте веб-приложение, в котором пользователь вводит фамилии 6 спортсменов и время трех забегов. 
+            Вывести в консоль фамилию самого медленного и самого быстрого спортсмена. Сформировать и вывести общую таблицу забегов.
+        </h3>
+        <span>
+            <input type="text" id="fio" placeholder="ФИО">
+            <input type="number" class="raceResult">
+            <input type="number" class="raceResult">
+            <input type="number" class="raceResult">
+        </span>
+        <span id="amountSportsmen"></span>
+        <span>
+            <button id="btnSetSportsmen">Внести</button>
+            <button id="btnGetSportsmen">Вывести</button>
+        </span>
+        <div class="result resultChamp"></div>
+    </section>
+    
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
